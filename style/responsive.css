@@ -1,0 +1,63 @@
+@media screen and (max-width: 1500px){
+    header .outros{
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    header .outros{
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    header .outros{
+        margin-left: 250px;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    header .logo{
+        width: 30%;
+    }
+
+    header .outros-box{
+        margin-top: 5px;
+        justify-content: center;
+    }
+
+    header .outros{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    main .botoes{
+        display:flex;
+        width: 400px;
+        height: 50px; 
+    }
+
+    header .logo{
+        width: 30%;
+    }
+    
+    .titulo{
+        font-size: 32px;
+    }
+
+    .sinopse{
+        font-size: 14px;
+    }
+
+    .descricao{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- RESPONSIVIDADE -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="img/netflix-logo.jpg" alt="netflix logo">
+            <nav>
+                <a href="#" class="inicio">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>                
+            </nav>
+
+            <div class="outros-box">
+                <a class="outros" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Buscar
+                </a>
+
+                <i class="fa-solid fa-bell sino"></i>
+                <a href="#" class="usuario"> Gabriel <i class="fa-sharp fa-solid fa-angle-down"></i></a>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <b class="descricao">2018 | <b class="dezoito">18</b> | 6 temporadas | Drama</p>
+                <p class="sinopse">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.</p>
+                <div class="botoes">
+                    <button class="botao-assistir">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button class="botao-maisinfo">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrosel-filmes">
+            <h2>Populares na Netflix</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img onclick="min1()" class="box-filme" src="img/min-1.jpg" alt="Agente Oculto">
+                </div>
+                <div class="item">
+                    <img onclick="min2()" class="box-filme" src="img/min-2.jpg" alt="O Projeto Adam">
+                </div>
+                <div class="item">
+                    <img onclick="min3()" class="box-filme" src="img/min-3.jpg" alt="Stranger Things">
+                </div>
+                <div class="item">
+                    <img onclick="min4()" class="box-filme" src="img/min-4.jpg" alt="Grey's Anatomy">
+                </div>              
+                <div class="item">
+                    <img onclick="min5()"" class="box-filme" src="img/min-5.jpg" alt="Cobra Kai">
+                </div>
+                <div class="item">
+                    <img onclick="min6()" class="box-filme" src="img/min-6.jpg" alt="Peaky Blinders">
+                </div>
+                <div class="item">
+                    <img onclick="min7()" class="box-filme" src="img/min-7.jpg" alt="Star Wars 7">
+                </div>
+                <div class="item">
+                    <img onclick="min8()" class="box-filme" src="img/min-8.jpg" alt="The Umbrella Academy">
+                </div>
+                <div class="item">
+                    <img onclick="min9()" class="box-filme" src="img/min-9.jpg" alt="The Old Guard">
+                </div>
+                <div class="item">
+                    <img onclick="min10()" class="box-filme" src="img/min-10.jpg" alt="Transformers: A Era da Extinção">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/b2919abd7f.js" crossorigin="anonymous"></script>
+    <script src="/netflix-landingpage/js/owl/jquery.min.js"></script>
+    <script src="/netflix-landingpage/js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
+</body>
+</html>
