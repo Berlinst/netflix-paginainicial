@@ -5,4 +5,4 @@ Projeto frontend referente ao bootcamp "JavaScript Game Developer" ministrado pe
 https://github.com/felipeAguiarCode/netflix-clone
 
 ### Exemplo
-![Exercício Netflix Landing Page](\netflix-landingpage\img\exemplo.jpg)
+![Exercício Netflix Landing Page](./img/exemplo.PNG)
